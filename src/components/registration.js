@@ -168,8 +168,10 @@ const Registration = ({ users, addUser, deleteUser }) => {
     console.log(formData.address);
   };
   return (
-    <div className="container mt-5">
-      <form>
+    <div className="container mt-5 mainBox">
+      <form className="mt-3 mb-4 py-4">
+        <div><h1 style={{color:"#ffffff"}}
+        >Registration Form</h1></div>
         <div className="mb-3">
           <label htmlFor="exampleInputName" className="form-label">
             Name
@@ -297,8 +299,8 @@ const Registration = ({ users, addUser, deleteUser }) => {
           Submit
         </button>
       </form>
-
-      <div className="card mt-5">
+<div className="userlist">
+<div className="card ">
         <table className="table">
           <thead>
             <tr>
@@ -307,6 +309,8 @@ const Registration = ({ users, addUser, deleteUser }) => {
               <th scope="col">Date of Birth</th>
               <th scope="col">Phone</th>
               <th scope="col">Address</th>
+              <th scope="col">Edit User</th>
+              <th scope="col">Delete User</th>
             </tr>
           </thead>
 
@@ -331,6 +335,8 @@ const Registration = ({ users, addUser, deleteUser }) => {
           </>
         </table>
       </div>
+</div>
+    
     </div>
   );
 };
