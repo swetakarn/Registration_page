@@ -22,7 +22,7 @@
 }
 .addressbtn{
   border: none;
-  background-color: rgb(165, 165, 233);
+  background-color: rgb(165, 233, 202);
   color: #ffffff;
   font-weight: bold;
   border-radius: 10px;
@@ -30,8 +30,16 @@
   padding: 10px 20px;
 }
 .form-label{
-  color: black;
+  color: #ffffff;
   font-weight: bold;
+}
+.mainBox{
+  height: fit-content;
+  background-color: rgb(74, 138, 180);
+  background-image: linear-gradient(to right rgb(209, 219, 221), rgb(0, 59, 111));
+}
+.userlist .table{
+  margin: 30px 0px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
