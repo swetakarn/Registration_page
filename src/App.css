@@ -37,9 +37,10 @@
   height: fit-content;
   background-color: rgb(74, 138, 180);
   background-image: linear-gradient(to right rgb(209, 219, 221), rgb(0, 59, 111));
+  padding: 30px 10px;
 }
 .userlist .table{
-  margin: 30px 0px;
+  margin: 30px 0px !important;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
